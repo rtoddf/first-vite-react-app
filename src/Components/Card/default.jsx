@@ -1,5 +1,4 @@
-import React from 'react';
-import person from './data/cards.json';
+import person from './data.json';
 import './default.scss';
 
 function Card() {

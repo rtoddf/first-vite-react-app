@@ -2,6 +2,21 @@ $white-color: #fff;
 $button-gradient-color-1: #04befe;
 $button-gradient-color-2: #4481eb;
 
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: transparent;
+}
+
 .card {
     width: 80%;
     margin: 0 auto;
@@ -10,30 +25,32 @@ $button-gradient-color-2: #4481eb;
     color: #333;
     border-radius: 6px;
     box-shadow: 0 2px 26px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
     text-align: center;
 
-h4 {
-    margin: 20px 0 0;
-    font-size: 35px;
-}
+    h4 {
+        margin: 20px 0 0;
+        font-size: 35px;
+    }
 
-h5 {
-    margin: 0 0 20px;
-    font-family: "Open Sans Condensed", sans-serif;
-    font-size: 20px;
-    line-height: 1.75;
-    letter-spacing: -0.5px;
-}
+    h5 {
+        margin: 0 0 20px;
+        font-family: "Open Sans Condensed", sans-serif;
+        font-size: 20px;
+        line-height: 1.75;
+        letter-spacing: -0.5px;
+    }
 }
 
 figure {
     img {
-      border: none;
-      box-shadow: 0 2px 26px 4px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        border: none;
+        box-shadow: 0 2px 26px 4px rgba(0, 0, 0, 0.1);
 
-      &.round {
-        border-radius: 50%;
-      }
+        &.round {
+            border-radius: 50%;
+        }
     }
 
     figcaption {
