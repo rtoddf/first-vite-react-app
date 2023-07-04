@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const CardStyled = styled.div`
-  width: 320px;
+  /* width: 320px; */
   margin: 0 auto;
   padding: 30px;
   background: ${({ bgColor }) => bgColor};
@@ -9,7 +9,6 @@ export const CardStyled = styled.div`
   color: ${({ theme }) => theme.colors.tertiary};
   border-radius: 6px;
   box-shadow: 0 2px 26px 4px rgba(0, 0, 0, 0.1);
-  font-size: 16px;
   text-align: center;
 
   figure {
