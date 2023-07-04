@@ -8,8 +8,8 @@ function Card({ image, name, show, social}) {
         <img className="round" src={image} alt={name} />
       </figure>
 
-      <h4>{name}</h4>
-      <h5>{show}</h5>
+      <h2>{name}</h2>
+      <h3>{show}</h3>
 
       {/* {social && social.map((iconInfo, id) => {
         return (
